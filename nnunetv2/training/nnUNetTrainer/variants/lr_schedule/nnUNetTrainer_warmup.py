@@ -5,7 +5,7 @@ from torch._dynamo import OptimizedModule
 
 from nnunetv2.training.lr_scheduler.warmup import Lin_incr_LRScheduler, PolyLRScheduler_offset
 from nnunetv2.training.nnUNetTrainer.nnUNetTrainer import nnUNetTrainer
-from nnunetv2.training.nnUNetTrainer.customTrainers import nnUNetTrainerNoMBC
+from nnunetv2.training.nnUNetTrainer.customTrainer import nnUNetTrainerNoMBC
 from torch.nn.parallel import DistributedDataParallel as DDP
 
 from nnunetv2.utilities.helpers import empty_cache
